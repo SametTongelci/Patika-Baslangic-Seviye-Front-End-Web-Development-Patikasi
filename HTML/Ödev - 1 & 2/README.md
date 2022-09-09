@@ -1,7 +1,10 @@
 
+![Kişisel Web Sayfası Görünümü](Page.png)
+
+--- 
 
 # ÖDEV 1
----
+
 ### İlk Web Sayfamızı Oluşturmak
 
 **Tasks:**
@@ -10,6 +13,8 @@
 - Altına paragraf içerisinde neler yaptığınızı ve nelerden hoşlandığınızı yazabilirsiniz.
 - Web sitenizi kaydederken dosya adı olarak **'index.html'** seçmeniz gerekmektedir.
 - Yazdığınız kodları açıklayan **yorum satırları** eklemeyi unutmayın.
+
+[Ödev - 1 Sayfası](https://app.patika.dev/courses/html/odev1)
 
 ---
 
@@ -23,3 +28,4 @@
 - Bunları sıralarken film ve dizilerin en az bir tanesine **IMDb linki**, kitapların bir tanesine de** Goodreads linkini** yazınız.
 - Kurduğunuz yapılarda `block`, `inline` gibi elementler kullanmaya çalışın.
 
+[Ödev - 2 Sayfası](https://app.patika.dev/courses/html/odev2)
