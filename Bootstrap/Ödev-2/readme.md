@@ -2,7 +2,7 @@
 
 [Patika - Ödev Linki](https://app.patika.dev/courses/bootstrap/odev2)
 
-###TASKS
+### TASKS
 
 * Navbar'ı yukarı sabitleyip sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağlayın. İçerik ile birleşmemesi için body'e padding veriniz.
 * Navbarın height'ı 54 px olmalı ve arkaplan rengi beyaz olmalı.
