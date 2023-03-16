@@ -24,8 +24,8 @@
         Navbarın height'ı 54 px olmalı ve arkaplan rengi beyaz olmalı.
     -->
     <nav
-      class="navbar navbar-expand-sm navbar-light border sticky-top bg-white mb-4"
-      style="height: 54px"
+      class="navbar navbar-expand-sm navbar-light border fixed-top bg-white mb-4"
+      style="height: 54px;"
     >
     <!-- navbar'ın başındaki logo class'ının içine 192px soldan margin verin. -->
       <div class="logo" style="margin-left: 192px">
@@ -46,10 +46,10 @@
             </button>
           </div>
           <!-- Arama kısmını d-flex ile ortay alıp soldan 5 birim margin verin. -->
-      <div class="collapse navbar-collapse d-flex justify-content-center" style="margin-left: 5px">
-        <form class="form-inline my-2 my-lg-0 ml-5 d-none d-sm-block">
+      <div class="collapse navbar-collapse">
+        <form class="form-inline my-2 my-lg-0 ml-5 d-none d-sm-block mx-auto">
           <input
-            class="form-control mr-sm-2 empty"
+            class="form-control mr-sm-2 empty d-flex ml-5"
             type="search"
             placeholder="Ara"
             style="font-family: Arial, FontAwesome; height: 28px; width: 216px"
@@ -101,7 +101,7 @@
       </div>
     </nav>
 
-    <div class="container middlearea">
+    <div class="container middlearea" style="margin-top: 75px">
       <div class="row">
         <!-- Bu alanın col'unun default değerini 12, diğer tüm ölçekleri ise 6 olarak ayarlayın. Yani normal boyutta 12, sayfa küçülüp büyüdükçe, boyutuyla oynadıkça 6 ölçek olacak şekilde ayarlayın. -->
         <div class="col-12 col-xs-6 col-md-6 col-lg-6 col-xl-6 col-sm-6 offset-sm-2 mt-2">
@@ -572,9 +572,12 @@
             </div>
           </div>
         </div>
+
+        <!-- Right Panel  -->
         <div class="col-3">
+            <!-- Rightpanel'de de arkaplan rengi beyaz olup kenarlık olmamalı. -->
           <div
-            class="card col-xs-12 rightpanel"
+            class="card col-xs-12 rightpanel border-0 mt-2"
             id="sticky-sidebar"
             style="width: 18rem"
           >
@@ -584,7 +587,7 @@
                   >
                   <span>
                   <img
-                    src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/83792429_185184289374945_1047727451901263872_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=oor-Z1FIzvgAX-uXuhs&tp=1&oh=e92baf321c3e2e5ebf9416204da05c82&oe=602E0320"
+                    src="assets/cengizcmataraci.jpg"
                     class=""
                     style="
                       width: 60px;
@@ -618,8 +621,9 @@
                     "
                     >Senin İçin Öneriler</span
                   >
+                  <!-- Tümünü gör ve takip et yazılarını sağa alınız. -->
                   <span
-                    class="postuserfont mt-1"
+                    class="postuserfont mt-1 float-right"
                     style="font-size: 12px"
                     ><strong>Tümünü Gör</strong></span
                   >
@@ -628,7 +632,7 @@
                   <div>
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/136764073_2862337494054607_1355990075667286005_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=3MHMOXdKP6cAX-WCyqg&tp=1&oh=ac33152da872b66e414b29d07b6c35ff&oe=602ED931"
+                        src="assets/kablosuzbeyin.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -637,7 +641,7 @@
                       ><strong>kablosuzbeyin</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -646,7 +650,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/135278730_818218959037021_4706682874061565439_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=ZcMoHQ8jKZgAX88HPLQ&tp=1&oh=2023068e1dfea5cccffd10bffecca9c4&oe=602F5808"
+                        src="assets/gulcanyayla.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -655,7 +659,7 @@
                       ><strong>codecraftcom </strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -664,7 +668,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/31495253_240585426490915_5836624022825074688_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=cPDm1HkyR00AX853Kwb&tp=1&oh=c8165bf46f38be25d28883123c419772&oe=602D147C"
+                        src="assets/navlungotr.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -673,7 +677,7 @@
                       ><strong>navlungotr</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -682,7 +686,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/94766381_265471701511060_6041416400029876224_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=mQMQvy2AF8QAX887wrH&tp=1&oh=4670ba101eddc6e0f54b15f53b432ff5&oe=602F5C23"
+                        src="assets/podfrescho.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -691,7 +695,7 @@
                       ><strong>podfreshco</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -699,7 +703,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/121780232_471629500408445_1284251206825421967_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=pF5Lhq2mP3gAX_M_HUg&tp=1&oh=84447ff663f0e15901cf8b446bb9fa18&oe=602DD5CA"
+                        src="assets/kodluyoruzjr.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -708,7 +712,7 @@
                       ><strong>Kodluyoruz Junior</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
