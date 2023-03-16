@@ -4,8 +4,14 @@
   color: gray;
   background-position: 35%;
   background-size: 6%;
+  /* CSS dosyası içindeki ::placeholder kısmının arkaplanına assets klasörü içinde bulunan arama simgesini ekleyin. Ve resmin tekrar etmemesini sağlayın. */
   background-image: url(assets/search-solid.svg);
   background-repeat: no-repeat;
+}
+
+/* Class'da belirttiğimiz middlearea içinde maksimum yükseklik 200px olmalı ve bunu important ile yazmalısınız */
+.middlearea {
+    max-height: 200px !important;
 }
 
 input.empty {
