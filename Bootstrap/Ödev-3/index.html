@@ -18,10 +18,16 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body class="body">
+
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbarbg">
-      <a class="navbar-brand" href="#"
+
+    <!-- Navbar yukarıya sabitlenmemiş durumda ve kenarlığı yok. Bunları düzeltiniz. -->
+    <nav class="navbar navbar-expand-lg navbarbg fixed-top border-bottom d-flex">
+
+        <!-- Logoya soldan boşluk ayarlayınız. -->
+      <a class="navbar-brand ml-5" href="#"
         ><i
           class="fab fa-linkedin fa-lg"
           style="color: #0a66c2; font-size: 2.4rem"
@@ -36,16 +42,18 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       ></button>
-      <form class="form-inline">
-        <input
-          class="form-control searche"
-          type="search"
-          placeholder="Arama Yap"
-          aria-label="Search"
-        />
+      <form class="form-inline ml-1">
+            <input
+              class="form-control searche"
+              type="search"
+              placeholder="Arama Yap"
+              aria-label="Search"
+            />
       </form>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto ml-4">
+      
+
+      <div class="collapse navbar-collapse text-center align-items-center">
+        <ul class="navbar-nav mr-0 ml-auto pr-5 ">
           <li class="nav-item active mr-3">
             <a class="nav-link" href="#"
               ><i class="fas fa-home fa-lg" style="color: black">
@@ -92,10 +100,11 @@
               aria-expanded="false"
             >
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
+                src="assets/profil.png"
                 style="
                   width: 25px;
                   height: 25px;
+                  border-radius: 50%;
                 "
               />
               <div
