@@ -24,36 +24,43 @@
     <!-- navbar -->
 
     <!-- Navbar yukarıya sabitlenmemiş durumda ve kenarlığı yok. Bunları düzeltiniz. -->
-    <nav class="navbar navbar-expand-lg navbarbg fixed-top border-bottom d-flex">
-
+    <nav class="navbar navbar-expand-lg navbarbg fixed-top border-bottom">
+      <!-- d-flex pl-5 mb-5 -->
+      <!-- <div class="col-3 d-flex float-right pl-5"> -->
+        <div class="container">
         <!-- Logoya soldan boşluk ayarlayınız. -->
-      <a class="navbar-brand ml-5" href="#"
-        ><i
-          class="fab fa-linkedin fa-lg"
-          style="color: #0a66c2; font-size: 2.4rem"
-        ></i
-      ></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      ></button>
-      <form class="form-inline ml-1">
-            <input
-              class="form-control searche"
-              type="search"
-              placeholder="Arama Yap"
-              aria-label="Search"
-            />
-      </form>
-      
+        <!-- ml-5 -->
+        <a class="navbar-brand" href="#"
+          ><i
+            class="fab fa-linkedin fa-lg"
+            style="color: #0a66c2; font-size: 2.4rem"
+          ></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+        <!-- <form class="form-inline ml-1"> -->
+          <form>
+              <input
+                class="form-control searche"
+                type="search"
+                placeholder="Arama Yap"
+                aria-label="Search"
+                style="width: 200px;"
+              />
+        </form>
+      </div>
 
-      <div class="collapse navbar-collapse text-center align-items-center">
-        <ul class="navbar-nav mr-0 ml-auto pr-5 ">
+      <!-- text-center align-items-center col-8 -->
+      <div class="collapse navbar-collapse"  style="float: right; text-align: center; margin-left: 190px;">
+        <ul class="navbar-nav mr-auto ml-4">
+          <!-- pr-5 -->
           <li class="nav-item active mr-3">
             <a class="nav-link" href="#"
               ><i class="fas fa-home fa-lg" style="color: black">
@@ -89,7 +96,7 @@
               >
             </a>
           </li>
-          <li class="nav-item dropdown mt-1 mr-3 ml-3">
+          <li class="nav-item dropdown mt-1 mr-1">
             <a
               class="nav-link"
               href="#"
@@ -107,8 +114,10 @@
                   border-radius: 50%;
                 "
               />
+              <!-- Ben kategorisini diğer kategori isimleri gibi düzenleyiniz ve profil fotoğrafını düzeltiniz. -->
               <div
-                class="menutext"
+                class="menutext mt-0 mb-1"
+                style="font-weight: bold; font-style: normal;"
               >
                 Ben
               </div>
@@ -130,12 +139,13 @@
       </div>
     </nav>
 
-    <div>
+    <div class="mt-5 container">
       <div class="row">
-        <!-- sol panel -->
-        <div class="">
+        <!-- ml-5 -->
+        <!-- sol panel  ml-5-->
+        <div class="col-3 mt-5" style="width: 16rem;">
           <!-- sol panel -->
-          <div class="card" style="width: 14rem">
+          <div class="card">
             <div
               class="card-header"
               style="
@@ -143,28 +153,37 @@
                 height: 53px;
               "
             >
+            <!-- Profil fotoğrafını ortalayın, kenarlığını yuvarlak yapın ve 2 birim beyaz kenarlık verin. -->
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
-                class=""
+                src="assets/profil.png"
+                class="d-block mx-auto"
                 style="
                   width: 70px;
                   height: 70px;
+                  border-radius: 50%;
+                  border: 2px solid white;
                 "
               />
             </div>
             <div class="card-body">
-              <p class="card-title header">
-                <a href="https://www.linkedin.com/in/cengizcmataraci/" target="_blank" style="color: #212529;">Cengiz Cemal Mataracı</a>
+              <p class="card-title header mt-3 ml-2 text-center">
+                <a href="https://www.linkedin.com/in/samet-tongelci/" 
+                  target="_blank"
+                  style="color: #212529;">Samet Töngelci</a>
               </p>
               <div
                 style="
                   margin-bottom: 10px;
                   color: #5f5f5f;
+                  font-size: 13px;
                 "
-              >
-                Software Developer at Navlungo - Dijital Lojistik Platformu
+                class="text-center"
+                >
+                  I am working on being a front-end web developer
               </div>
+
               <hr />
+
               <div class="card-text">
                 <div>
                   <span class="view">Profilinizi kimler görüntüledi </span
@@ -180,24 +199,26 @@
                 </div>
               </div>
             </div>
-            <div class="card-footer ">
+            <div class="card-footer bg-white rounded-0">
               <i class="fas fa-bookmark"></i
-              ><span class="mb-4"
-                >Ögelerim</span
+              ><span class="mb-4 ml-2"
+                style="font-size: 13px;"
+                ><strong>Ögelerim</strong></span
               >
             </div>
           </div>
-          <div class="card mt-2" style="width: 14rem">
+          <div class="card mt-2">
+            <!-- style="width: 14rem" -->
             <div
-              class="card-header"
+              class="card-header bg-white border-0"
               style="margin-bottom: -22px; font-size: 18px"
             >
               Sayfalarım
             </div>
-            <div class="card-body">
+            <div class="card-body mt-3">
               <div class="card-title">
                 <img
-                  src="https://media-exp1.licdn.com/dms/image/C4E0BAQGl9HYLHdcl6g/company-logo_100_100/0/1610108537301?e=1619654400&v=beta&t=MxTTjGSiH6Xvx2x9YMbjgLWIaU5uojZNqXGGuUIWUQo"
+                  src="https://media.licdn.com/dms/image/C4E0BAQGl9HYLHdcl6g/company-logo_200_200/0/1610108537301?e=1687392000&v=beta&t=FcK8Q2cQdnLYnLFB6vY7Zn1xWxEOMZudH7e2LNe3xPI"
                   style="width: 32px; height: 32px"
                 />
                 <div
@@ -217,25 +238,26 @@
                     font-weight: bold;
                     color: gray;
                     margin-left: 38px;
+                    margin-top: -3px;
                   "
                 >
                   Sayfa Bildirimleri
-                  <span class="" style="color: #0a66c2">10</span>
+                  <span class="float-right" style="color: #0a66c2;;">10</span>
                 </div>
               </div>
             </div>
           </div>
+
           <div
             class="card mt-2"
-            style="width: 14rem;"
           >
             <div
-              class="card-header bg-white border-0"
-              style="font-size: 12px"
+              class="card-header bg-white border-0 font-weight-bolder"
+              style="font-size: 12px;"
             >
               En Yeni
             </div>
-            <div class="card-body">
+            <div class="card-body" style="margin-top: -20px;">
               <div class="card-title">
                 <div>
                   <i
@@ -325,7 +347,7 @@
               </div>
             </div>
             <div
-              class="card-footer"
+              class="card-footer bg-white border rounded-0 text-center font-weight-bolder"
             >
               Daha fazla keşfet
             </div>
