@@ -44,6 +44,7 @@
           placeholder="Arama Yap"
           aria-label="Search" />
   
+        <!-- Arama alanı ile menü arasındaki boşluğu ayarlayınız. -->
         <div class="collapse navbar-collapse " style="float: right; text-align: center; margin-left: 144px;">
           <ul class="navbar-nav mr-auto ml-4 ">
             <li class="nav-item active mr-3 ">
@@ -78,6 +79,7 @@
               </a>
             </li>
   
+            <!-- Ben kategorisini diğer kategori isimleri gibi düzenleyiniz ve profil fotoğrafını düzeltiniz. -->
             <li class="nav-item active mr-1 mt-1">
               <a class="nav-link" href="#"><i class="">
                   <img src="assets/profil.png" style="
@@ -208,6 +210,8 @@
                   "
                 >
                   Sayfa Bildirimleri
+
+                  <!-- Sayfa bildirimi sayısını sağa alınız. -->
                   <span class="float-right" style="color: #0a66c2;;">10</span>
                 </div>
               </div>
@@ -218,6 +222,7 @@
             class="card mt-2 "
             style="margin-top: 4rem; overflow: visible; position: sticky; top:50px;"
           >
+          <!-- En Yeni bölümüne sticky pozisyon verin ve overflowunu görünür yapın. - Yukarıdan 4rem mesafe verin. -->
             <div
               class="card-header bg-white border-0 font-weight-bolder"
               style="font-size: 12px; "
@@ -367,10 +372,11 @@
             <hr />    
           </div>
 
-          <div class="card">
+          <div class="card rounded-0">
             <div class="card-header d-flex bg-white border-0">
               <img src="https://media.licdn.com/dms/image/C4E03AQGiWpTUewQ76Q/profile-displayphoto-shrink_800_800/0/1613923672228?e=2147483647&v=beta&t=3GpYJd_d_uRIOVJDNLiYrWQpg5yTom-xGVSR-LcMao4" class="postphoto">
               <div class="d-flex flex-column ml-2">
+                <!-- Posttaki kullanıcı adını üste, meslek title'sını ortaya, post paylaşım süresini aşağı sabitleyiniz -->
                 <span class="posttext ml-0">
                   <a href="https://www.linkedin.com/in/malan/" target="_blank" style="color: #212529;">
                     David J. Malan</a>
@@ -411,6 +417,7 @@
                 <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  
                   958</span>
               <div class="card-footer bg-white mt-1">
+                
                 <span>
                   <button class="ref border-0">
                     <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
@@ -443,7 +450,7 @@
             </div>
           </div>
 
-          <div class="card mt-2">
+          <div class="card mt-2 rounded-0">
             <div class="card-header d-flex bg-white border-0">
               <img src="https://avatars.githubusercontent.com/u/54830263?v=4" class="postphoto">
               <div class="d-flex flex-column ml-2">
@@ -521,7 +528,7 @@
               </div>
             </div>
 
-            <div class="card mt-2 mb-5">
+            <div class="card mt-2 mb-5 rounded-0">
             <div class="card-header d-flex bg-white border-0">
               <img src="https://media.licdn.com/dms/image/D4D03AQF4lDLHeEPM4Q/profile-displayphoto-shrink_800_800/0/1673851533001?e=2147483647&v=beta&t=wikNtrO02L8CEHGXlv2-SktBk_Qegc4buYWENCSBiFQ" class="postphoto">
               <div class="d-flex flex-column ml-2">
@@ -611,7 +618,7 @@
               <span style="font-weight: 500;">Akışınıza ekleyin</span>
               <span><i class="fas fa-info-circle float-right"></i></span>
             </div>
-
+            <!-- Sağ panelde logoların yazıları yanlarında olması lazım. -->
             <div class="card-title">
               <div class="ml-3">
                 <img class="float-left mr-3"
@@ -675,6 +682,7 @@
             </div>
           </div>
 
+          <!-- Bugünün en çok izlenen eğitimleri bölümünün genişliğini üstteki gibi ayarlayınız. -->
           <div class="card mt-2" style="width: 19rem;">
             <div class="card-header bg-white border-0">
               <span>Bugünün en çok izlenen eğitimleri</span
@@ -727,43 +735,48 @@
             </div>
           </div>
 
+          <!-- Sağ panelde en alttaki bölüme sticky pozisyon verin ve overflowunu görünür yapın. Yukarıdan 4rem mesafe verin. -->
           <div class="text-center mt-3 ml-3"
-          style="margin-top: 4rem; overflow: visible; position: sticky; top:50px;">
-            <div
-              ><a href="https://about.linkedin.com/" class="link mr-3"
+          style="margin-top: 4rem; overflow: visible; position: sticky; top:55px; width: 19rem;">
+          <!-- Bu bölümdeki linkler yan yana olmalı. -->
+            <span
+              ><a href="https://about.linkedin.com/" class="link mr-3 float-left"
                 >Hakkında</a
-              ></div
+              ></span
             >
-            <div
-              ><a
+            <span>
+              <a
                 href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility"
-                class="link mr-3"
-                >Erişilebilirlik</a
-              ></div
-            >
-            <div
-              ><a
+                class="link">
+                  <span style="margin-left: -150px;">Erişilebilirlik</span>
+                </a>
+              </span>
+            <span>
+              <a
                 href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
-                class="link"
-                >Yardım Merkezi</a
-              ></div
+                class="link float-right">
+                <span style="margin-top: -20px; margin-left: -200px;">Yardım Merkezi</span>
+              </a>
+              </span
             >
-            <div><a href="" class="link mr-3">Gizlilik ve Koşullar</a></div>
-            <div
-              ><a
+            <span>
+              <a href="#" class="link mr-3 ml-3 float-left mt-2">Gizlilik ve Koşullar</a>
+            </span>
+            <span>
+              <a
                 href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
-                class="link"
-                >Reklam Tercihleri</a
-              ></div
-            >
-            <div
-              ><a
+                class="link mr-3 float-right">
+                <span style="margin-left: -200px; margin-top: 8px;">Reklam Tercihleri</span>
+              </a>
+            </span>
+            <span>
+              <a
                 href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising"
-                class="link"
-                >Reklam</a
-              ></div
-            >
-            <div class="text-center" style="margin-top: 10px">
+                class="link">
+                <span style="margin-top: 30px; margin-left: -170px;">Reklam</span>
+              </a>
+            </span>
+            <span class="text-center" style="margin-top: 10px; margin-left: -60px">
               <img
                 src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg"
                 width="90px"
@@ -771,7 +784,7 @@
               /><span style="font-size: 12px; margin-left: -15px"
                 >Linkedin Corporation © 2021</span
               >
-            </div>
+            </span>
           </div>
         </div>
       </div>
