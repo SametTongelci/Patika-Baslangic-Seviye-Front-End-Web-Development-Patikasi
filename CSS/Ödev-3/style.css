@@ -69,3 +69,86 @@ body {
   background-color: #1b66c9;
   box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
 }
+
+/* Search area - main CSS Codes */
+.main {
+  flex: 1;
+  margin-top: 30px;
+}
+
+.main .logo {
+  display: flex;
+  margin: 180px auto 0 auto;
+}
+
+.search {
+  width: 580px;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.search .search-input {
+  display: block;
+  border: 1px solid #ddd;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  padding: 13px 13px 13px 45px;
+  border-radius: 25px;
+  width: 100%;
+  transition: box-shadow 100ms;
+  outline: none;
+}
+
+.search .search-input:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.search .search-icon {
+  width: 18px;
+  opacity: 0.4;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 18px;
+}
+
+.search .search-klavye {
+  width: 18px;
+  position: absolute;
+  top: 17px;
+  right: 60px;
+}
+
+.search .search-camera {
+  width: 20px;
+  position: absolute;
+  top: 13px;
+  right: 24px;
+}
+
+.search .search-button {
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  color: #3c4043;
+  font-size: 14px;
+  border: 4px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 28px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #f8f9fa;
+  height: 36px;
+}
+
+.search .search-button:hover {
+  border: 1px solid #dadce0;
+  background-color: #f8f9fa;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
