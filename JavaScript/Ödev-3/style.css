@@ -57,3 +57,16 @@ h4 {
 .menu-text {
   padding-top: 20px;
 }
+
+button {
+  background-color: #f1f5f8;
+  border: 1px solid #212529;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: #212529;
+  color: #f1f5f8;
+}
