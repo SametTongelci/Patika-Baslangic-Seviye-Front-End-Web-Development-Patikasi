@@ -72,3 +72,25 @@ const menu = [
     desc: `Red bean paste dessert, serving with honey.`,
   },
 ];
+
+let btnContainer = document.querySelector(".btn-container");
+let foodMenu = document.querySelector(".section-center");
+btnContainer.innerHTML = `<button id="All">All</button> <button id= "Korea">Korea</button> <button id="Japan">Japan</button> <button id ="China">China</button>`;
+
+let buttons = document.querySelectorAll("button");
+
+menu.forEach((element) => {
+  foodMenu.innerHTML += `<div class="menu-items col-lg-6 col-sm-12">
+    <img src=${element.img} class="photo">
+    <div class="menu-info">
+        <div class="menu-title">
+        <h4>${element.title}</h4>
+        <h4 class="price">${element.price}</h4>
+        </div>
+        <div class="menu-text">
+        ${element.desc}
+        </div>
+    </div>
+    </div>`;
+});
+
